@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="14dp"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="#C5CAC5"
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAP AND SPEAK TO SEARCH WEB"
+        android:id="@+id/voice"/>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="284dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:src="@raw/tenor" />
+
+</LinearLayout>

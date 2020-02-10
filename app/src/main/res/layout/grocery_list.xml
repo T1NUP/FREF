@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:background="#2A4EAA"
+
+    tools:context=".Grocery_List">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+        android:layout_gravity="top"
+        android:background="#A8C1F0"
+        android:src="@raw/ypur" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="459dp"
+        android:layout_below="@+id/up"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-114dp"
+        android:background="#A8C1F0"
+        android:src="@raw/ypur" />
+
+    <TextView
+        android:id="@+id/git"
+        android:layout_width="150dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="ITEM"
+        android:textColor="#290202"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/gi"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:inputType="textCapCharacters"
+        android:layout_alignLeft="@+id/git"
+        android:textColor="#28003F"
+        android:layout_marginLeft="163dp" />
+
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/git"
+        android:layout_marginTop="20dp"
+        android:id="@+id/qtt"
+        android:textColor="#290202"
+        android:text="QUANTITY"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/qt"
+        android:layout_width="203dp"
+        android:textColor="#28003F"
+        android:layout_height="54dp"
+        android:layout_below="@+id/gi"
+        android:layout_alignLeft="@+id/qtt"
+        android:layout_marginLeft="163dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/pt"
+        android:layout_width="147dp"
+        android:layout_height="61dp"
+        android:textColor="#290202"
+        android:layout_below="@+id/qtt"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="PRICE" />
+
+    <EditText
+        android:id="@+id/p"
+        android:layout_width="202dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/qt"
+        android:ems="10"
+        android:textColor="#28003F"
+        android:inputType="numberDecimal"
+        android:layout_alignLeft="@+id/qtt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/ad"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/pt"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/slt"
+        android:elevation="10dp"
+        android:text="ADD" />
+
+    <Button
+        android:elevation="10dp"
+        android:id="@+id/sh"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ad"
+        android:layout_marginTop="8dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/slt"
+        android:text="SHOW" />
+
+    <Button
+        android:elevation="10dp"
+        android:id="@+id/dlt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/sh"
+        android:layout_marginTop="8dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/slt"
+        android:text="DELETE" />
+
+    <Button
+        android:id="@+id/sal"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/dlt"
+        android:layout_marginTop="8dp"
+        android:layout_margin="20dp"
+        android:text="SHOW LIST"
+        android:background="@drawable/slt"
+         />
+
+
+
+
+</RelativeLayout>

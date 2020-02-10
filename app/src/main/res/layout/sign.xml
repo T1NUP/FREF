@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="50dp"
+    android:background="#E0E4FD"
+    android:layout_margin="3dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:text="Sign In"
+        android:foreground="@drawable/common_google_signin_btn_icon_dark_normal"/>
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="FRIEND"
+        android:textAlignment="center"
+        android:textColor="#994100"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/help2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="ENTERTAINMENT"
+        android:textAlignment="center"
+        android:textColor="#994100"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/help3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="FUN"
+        android:textColor="#994100"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mov"
+        android:layout_height="wrap_content"
+        android:text="Click the button to Sign In!!"
+        android:layout_gravity="center"
+        android:textSize="21sp"
+        android:textColor="#994100"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

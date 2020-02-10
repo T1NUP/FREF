@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6F1991"
+    android:gravity="top"
+    android:fitsSystemWindows="true"
+    android:layoutMode="opticalBounds"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:padding="8dp">
+
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="409dp"
+        android:layout_height="347dp"
+        android:fadingEdge="vertical|none"
+        android:isScrollContainer="true"
+        android:outlineProvider="background"
+        android:padding="5dp"
+        tools:listitem="sorry"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textAlignment="gravity"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="8dp"></ListView>
+
+    <Button
+        android:id="@+id/dlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/tb"
+        android:gravity="center"
+        android:padding="10dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:text="DELETE ALL!!"
+        android:textSize="40dp"
+        />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+
+        <item
+            android:checkable="false"
+            android:title="                    "></item>
+
+        <item
+            android:id="@+id/frndon"
+            android:icon="@android:drawable/star_on"
+            android:title="PEOPLE"></item>
+        <item
+            android:id="@+id/findfrnd"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="FIND FRIEND"></item>
+        </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/grp6">
+
+        <item
+            android:checkable="false"
+            android:title="ENTERTAINMENTS AND UTILITY"></item>
+   </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp4">
+
+        <item
+            android:id="@+id/search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="GOOGLE SEARCH"></item>
+
+
+        <item
+            android:id="@+id/notes"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="ONLINE RADIO"></item>
+        <item
+            android:id="@+id/grocery"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="GROCERY LIST">
+        </item>
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/grp3">
+
+        <item
+            android:iconTint="#7609A7"
+            android:title="INFO"></item>
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp2">
+
+        <item
+            android:id="@+id/policy"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="ABOUT Us"></item>
+
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Contact Us!"></item>
+
+        <item
+            android:id="@+id/help"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Help"></item>
+    </group>
+
+</menu>
